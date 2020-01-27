@@ -3,6 +3,7 @@
     // Required for certain syntax usages
     "ecmaVersion": 2017
   },
+  "parser": "babel-eslint",
   "plugins": [
     "promise"
   ],
@@ -19,6 +20,8 @@
         "SwitchCase": 1
       }
     ],
+
+    "prefer-spread":"warn",
     
     // Removed rule "disallow multiple spaces in regular expressions" from recommended eslint rules
     "no-regex-spaces": "off",
